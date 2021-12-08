@@ -5,6 +5,9 @@ public class Isci extends Muhasebe{
 	protected String statu;
 	protected String meslegi;
 	protected String Sendika;
+	public Isci(){
+		System.out.println("Isci parametresiz constructor calisti");
+	}
 
 	public static void main(String[] args) {
 		
