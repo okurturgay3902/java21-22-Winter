@@ -1,30 +1,25 @@
-package day37_inheritance;
+package day38_overriding;
 
-public class Person {
-	 Person() {
-		System.out.println("Person Constructor");
-	}
-	
+class Person{
 	public void talk() {
 		System.out.println("First Program");
 	}
-
 }
 
-
-class Student extends Person {
-	
+class Student extends Person{
 	public void talk() {
 		System.out.println("Second Program");
 	}
 }
 
 
-class Test04 {
-	
+
+public class S05 {
+
 	public static void main(String[] args) {
 		
 		Person p=new Student();
 		p.talk();
 	}
+
 }
