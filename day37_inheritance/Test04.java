@@ -1,7 +1,7 @@
 package day37_inheritance;
 
-public class Person {
-	 Person() {
+class Person {
+	 public Person() {
 		System.out.println("Person Constructor");
 	}
 	
@@ -20,7 +20,7 @@ class Student extends Person {
 }
 
 
-class Test04 {
+public class Test04 {
 	
 	public static void main(String[] args) {
 		
