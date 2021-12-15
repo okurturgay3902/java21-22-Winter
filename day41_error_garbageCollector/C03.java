@@ -12,11 +12,7 @@ public class C03 {
 		 *  final yaptigimizda da degistirilemez oldu
 		 */
 		
-		
-		
-		
-		
-
+		// Abstract Class
 	}
 
 }
